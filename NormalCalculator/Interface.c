@@ -74,7 +74,7 @@ void ButtonClickedHandler(GtkWidget *widget, gpointer user_data){
 	char *entry = (char*)gtk_label_get_text(GTK_LABEL(user_data));
 	
 	//Functions and signs come with spaces around them. numbers do not
-	if(ispunct(entry[0]) && entry[0] != '.' || isalpha(entry[0])){
+	if(ispunct(entry[0]) && entry[0] != ',' || isalpha(entry[0])){
 		if(LAST_CHARACTER(expressionString) != ' '){
 			ADD_CHARACTER(expressionString, ' ');
 		}
@@ -385,7 +385,7 @@ int main(int argc, char *argv[]){
                       <object class=\"GtkLabel\" id=\".\">\
                         <property name=\"visible\">True</property>\
                         <property name=\"can-focus\">False</property>\
-                        <property name=\"label\" translatable=\"yes\">.</property>\
+                        <property name=\"label\" translatable=\"yes\">,</property>\
                         <property name=\"yalign\">0</property>\
                         <attributes>\
                           <attribute name=\"font-desc\" value=\"Segoe UI Bold 25\"/>\
