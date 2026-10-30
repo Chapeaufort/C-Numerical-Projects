@@ -92,7 +92,7 @@ It supports arithmetic, powers, roots, logarithms, trigonometric functions, hype
 
 ## Requirements
 
-- A C compiler such as GCC, Clang, or Dev-C++
+- A C compiler such as GCC or Clang
 - The math library (`-lm` on Linux and MSYS2)
 - GTK 3.24 for `NormalCalculator`
 - `pkg-config` for obtaining GTK compiler and linker flags
