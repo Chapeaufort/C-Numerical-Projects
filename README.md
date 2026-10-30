@@ -20,8 +20,6 @@ Supported operations include:
 
 The GUI is defined in `Interface.c` and the original Glade file is included for reference. The calculator was developed with Dev-C++ and MSYS2 using GTK 3.
 
-Known limitation: floating point numbers aren't recognized by the calculator, although the decimal point button works.
-
 ### SolutionToFunctions
 
 A command-line program that approximates real roots of a function within an interval. It uses the Newton-Raphson method with numerical differentiation.
